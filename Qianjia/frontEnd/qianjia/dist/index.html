@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+    <!-- viewport的定义？？？？？？？？？ -->
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <!--删除默认的苹果工具栏和菜单栏-->
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="keywords" content="{{keywords}}" />
+    <meta name="description" content="{{description}}" />
+
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <title>{{title}}</title>
+
+  <script>
+        //动态计算根元素的font-size
+        (function(){
+          function setFontSize(){
+              var clientWidth = document.documentElement.clientWidth;
+              if (clientWidth>750){ //页面最大750px
+                  document.documentElement.style.fontSize = 100*750/750+'px';
+              }else if(clientWidth<320){ //页面最小320px
+                  document.documentElement.style.fontSize = 100*320/750+'px';
+              }else{
+                  document.documentElement.style.fontSize = 100*document.documentElement.clientWidth/750+'px';
+              }
+          }
+          setFontSize();
+          window.onload = window.onresize = function(){
+              setFontSize();
+          }
+        })();
+
+    </script>
+<link href="styles7a2a1e5149962dd282f7e5639ee70fa2.css?562d1053cd5c3378f83b" rel="stylesheet"></head>
+<body>
+    <div id="app">{{content}}</div>
+<script type="text/javascript" src="./js/vendors.d416c.js?562d1053cd5c3378f83b"></script><script type="text/javascript" src="./js/index.fa015.js?562d1053cd5c3378f83b"></script></body>
+</html>

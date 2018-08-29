@@ -1,0 +1,43 @@
+.btn-red{
+  height: 70px;
+  background: #fd333d;
+  display: inline-block;
+  line-height: 70px;
+  padding: 0px 28px;
+  border-radius: 30px ;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+
+
+.btn-red-2line{
+  line-height: 27px;
+  padding-top: 10px;
+  height: 60px;
+}
+
+.btn-yellow{
+  height: 70px;
+  background: yellow;
+  display: inline-block;
+  line-height: 70px;
+  padding: 0px 28px;
+  border-radius: 30px ;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+.buttonBtn{
+  width: 100%;
+  display:block;
+  font-size: 24px;
+  border-radius: 5px;
+  background: red;
+  line-height:50px;
+  height:50px;
+  text-align: center;
+  border: 0;
+  color: #fff;
+  margin:0 auto;
+}

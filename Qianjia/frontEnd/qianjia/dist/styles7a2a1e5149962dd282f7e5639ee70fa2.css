@@ -1,0 +1,352 @@
+.login .imgWarp {
+  position: relative;
+}
+
+.login .imgWarp .bg1 {
+  width: 7.5rem;
+  height: 3.6rem;
+}
+
+.login .imgWarp .bg2 {
+  width: 1.86rem;
+  height: 1.86rem;
+  border-radius: 50%;
+}
+
+.login .imgWarp .pos1 {
+  position: absolute;
+  left: 2.86rem;
+  top: 0.7rem;
+}
+
+.login .imgWarp .bg3 {
+  width: 2.84rem;
+  height: 0.48rem;
+  position: absolute;
+  left: 2.36rem;
+  top: 2.76rem;
+}
+
+.login .validCode {
+  width: 1.55rem;
+  height: 0.56rem;
+  display: inline-block;
+  margin-top: 0.17rem;
+}
+
+.login .pR30 {
+  padding-right: 0.3rem;
+}
+
+.login .btn-getMsgCode {
+  color: #fb343e;
+  width: 2.48rem;
+  text-align: center;
+}
+
+.login .vertical-line {
+  margin: 0 0.38rem;
+}
+
+.login .hiddenBlock {
+  height: 0.3rem;
+}@charset "UTF-8";
+
+.homeModule .my-book-box {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  padding-top: 0.94rem;
+}
+
+.homeModule .my-book-box .b-main {
+  width: 4.6rem;
+  height: 5.9rem;
+  background: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -2.3rem;
+  margin-top: -2.95rem;
+  background: url(images/congratulation_background.4ad427cf.png) no-repeat;
+  background-size: 100%;
+}
+
+.homeModule .my-book-box .congBannerYield {
+  color: #ff4e00;
+  line-height: 2.86rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.55rem;
+  margin-bottom: 0.36rem;
+}
+
+.homeModule .my-book-box .describle {
+  text-align: center;
+  font-size: 0.27rem;
+  height: 0.42rem;
+}
+
+.homeModule .my-book-box .bnt-red {
+  width: 3.42rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  margin-left: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.homeModule .carouselWrap {
+  padding-top: 0.94rem;
+}
+
+.homeModule .slider-item {
+  width: 7.5rem;
+  height: 3.32rem;
+}
+
+.homeModule .proclaim {
+  height: 0.68rem;
+  background: white;
+}
+
+.homeModule .proclaim .proclaimIcon {
+  width: 0.66rem;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAgCAMAAACRtl6LAAAAWlBMVEUAAAD7ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND77ND4Xgm9mAAAAHXRSTlMAVkTvzN27EB8zeDsoF/bDiJGXcWUK07St456AS0xk5b8AAAGaSURBVEjHnZVhu4IgDIUPIkmmlanda+X//5s3TsDMCr29H3rYRscxNkXAKkcWFls8UzoUUDNq8Y6f0VEChXYLXWCKYrQFdlwovBBCQw+g5fKIKQfn2tdJiQNDHdeD3y9sR6LvjAzqyNA/JWqmxgnCZfxIA8855idWhUCx/yQguzpaOTw3mr8gsTomv2NkSS540A8MZLPKxIs1NGvgczlL+n/m5Tt4K/NJJSQK7U8l/NJzA2mMI0tJHOm+YEJF1xlTEhKW9d5bTDnJ1hUSF7lfVTpcg9XUHeBoN0L+SG8jNCFnXbNuJJPTtT6jBCrM19U9WcvfZNoWJM7hcLr33SAd1Ubp00ISduuwMfVzDw8DFVYiXa0rfI3V0k1fkoejk/rokOj4CQjNbEyY0261hLxyiuchuf5DotLs8QqRLo6qSKhsinqS6POXzrf0xKzEmu14nRLBUHStRCcvmNmonlZKVPtHTxWe2jqoa1ZKbMZ3GP7ahXKW8il8RXHouuSl6gwJCYMrxzYlcahjY+aCCSjs+JyERINFlKPHIn9tA2EPO0nqZAAAAABJRU5ErkJggg==) no-repeat;
+  background-size: 100%;
+  height: 0.32rem;
+  margin-left: 0.3rem;
+  margin-top: 0.17rem;
+}
+
+.homeModule .proclaim .proclaimItem {
+  font-size: 0.22rem;
+  line-height: 0.68rem;
+  padding: 0 0.2rem 0 0.35rem;
+  width: 5.39rem;
+  overflow: hidden;
+}
+
+.homeModule .proclaim .toProclaimList {
+  width: 0.32rem;
+  height: 0.33rem;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAhCAMAAACP+FljAAAAUVBMVEUAAAD5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEb5PEaiQ51bAAAAGnRSTlMA8Q/NMyE8BsPg1q7mg+tKLEMWtaaci1Z4Yf/eXMwAAADlSURBVDjL5ZHdksIgDIUTWP5aSmurVc/7P+g2DohbnFn11u+GCXwTMif0CWbQjHCy9Bw3ILPMT9974HRQbrowgpF+vS70Ug/gA92YNfR2dKj4zQe292wEXImAn4wFS4Mj3TnDi1BKJYLHWAXHUHshwlBFY9oLoRHe+qIdUjdDGsDeLwKujUADUjZmj87thBK1dc5cEsCbm8AFdCTGiozXYpwTCjGHbNaOEY8jKY9eWheoQa2O/mVaHtf9uP1lImrX7VGRmZt1M2ypbwE0OUj6me8S4t/oNCqRhLEawRLZgEIa6RV+AbtDHIUvivh0AAAAAElFTkSuQmCC) no-repeat;
+  background-size: 100%;
+  margin-top: 0.16rem;
+}
+
+.homeModule .financeList {
+  background: #cdcdcd;
+  border-top: 0.01rem solid white;
+  padding-bottom: 0.2rem;
+}
+
+.homeModule .financeList .financeItem {
+  padding: 0.2rem;
+  margin-top: 0.2rem;
+  background: white;
+  margin-left: 0.15rem;
+  margin-right: 0.15rem;
+  border-radius: 0.16rem;
+  position: relative;
+}
+
+.homeModule .financeList .financeItem .financeImg {
+  width: 6.8rem;
+  height: 2.3rem;
+}
+
+.homeModule .financeList .financeItem .financeTitle {
+  height: 0.72rem;
+  line-height: 0.72rem;
+  font-size: 0.26rem;
+  color: #333333;
+  margin-left: 0.16rem;
+  overflow: hidden;
+}
+
+.homeModule .financeList .financeItem .item_title {
+  font-size: 0.26rem;
+  color: #333333;
+  margin-top: 0.27rem;
+}
+
+.homeModule .financeList .financeItem .btn-red {
+  margin-top: 0.2rem;
+}
+
+.homeModule .financeList .financeItem .year-shouyi {
+  width: 0.8rem;
+  height: 0.65rem;
+  display: inline-block;
+  position: absolute;
+  top: -0.06rem;
+  left: 1.68rem;
+}
+
+.homeModule .financeList .financeItem .item-progress {
+  height: 0.04rem;
+  background: #dddddd;
+  margin-top: 0.26rem;
+}
+
+.homeModule .financeList .financeItem .item-progress-inner {
+  height: 0.04rem;
+  background: #f54a4b;
+}
+
+.homeModule .financeList .financeItem .item-ketou {
+  height: 0.34rem;
+  line-height: 0.5rem;
+  color: #666666;
+  font-size: 0.2rem;
+}
+
+.homeModule .financeList .financeItem .proportion {
+  font-size: 0.2rem;
+  height: 0.34rem;
+  line-height: 0.5rem;
+  color: #666666;
+}
+
+.homeModule #hei580 {
+  height: 5.8rem;
+}
+
+.homeModule .goTestBtn {
+  width: 3rem;
+  height: 0.8rem;
+  background: #fcc527;
+  color: white;
+  text-align: center;
+  line-height: 0.8rem;
+  border-radius: 0.41rem;
+  margin-top: 0.8rem;
+  margin-left: 0.8rem;
+}
+
+.choujiang {
+  position: fixed;
+  width: 2rem;
+  height: 2rem;
+  z-index: 1000000;
+  bottom: 1rem;
+  font-size: 0.34rem;
+  right: 0.1rem;
+}
+
+/*公用 start*/
+
+.item_desc {
+  margin-top: 0.25rem;
+  position: relative;
+}
+
+.item_desc .item_desc_item1 {
+  width: 1.55rem;
+  text-align: center;
+}
+
+.item_desc .item_desc_item2 {
+  width: 1.93rem;
+  text-align: center;
+}
+
+.item_desc .item_desc_item3 {
+  text-align: center;
+  border-left: 0.02rem solid #cccccc;
+}
+
+.item_desc .item_desc_item_value {
+  height: 0.66rem;
+}
+
+.item_desc .item_desc_item_name {
+  color: #999999;
+  font-size: 0.2rem;
+}
+
+.item_desc .percentNum {
+  font-size: 0.5rem;
+  color: #f54a4b;
+}
+
+.item_desc .percentHao {
+  color: #999999;
+}
+
+.yqjxLable {
+  position: absolute;
+  width: 1.28rem;
+  height: 0.51rem;
+  top: -0.48rem;
+  right: -1.02rem;
+}
+
+/*公用  start*/
+
+.downLoadMod {
+  overflow: hidden;
+  width: 100%;
+  height: 1rem;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.74);
+  z-index: 9999;
+}
+
+.downLoadMod .jjkq {
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  top: 0.24rem;
+  left: 0.25rem;
+}
+
+.downLoadMod .qianjia_logo {
+  width: 0.7rem;
+  height: 0.7rem;
+  position: absolute;
+  top: 0.17rem;
+  left: 0.98rem;
+  border-radius: 0.1rem;
+}
+
+.downLoadMod .k_download_text {
+  overflow: hidden;
+  color: #fff;
+  /* margin-top: 0.6rem; */
+  font-size: 0.18rem;
+  /* float: left; */
+  position: absolute;
+  left: 1.97rem;
+  top: 0.29rem;
+}
+
+.downLoadMod .aa {
+  font-size: 0.25rem;
+  margin-bottom: 0.09rem;
+}
+
+.downLoadMod .k_download_btn {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  text-align: center;
+  font-size: 0.25rem;
+  color: #fff;
+  border: 0.04rem solid #fff;
+  border-radius: 0.02rem;
+  /* float: right; */
+  /* margin: 0.9rem 0.4rem; */
+  position: absolute;
+  /*top: 14px;
+    left: 534px;
+    padding: 0px 40px;*/
+  top: 0.29rem;
+  left: 5.61rem;
+  padding: 0 0.2rem;
+}
+/*# sourceMappingURL=styles7a2a1e5149962dd282f7e5639ee70fa2.css.map*/

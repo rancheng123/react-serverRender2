@@ -1,0 +1,306 @@
+.homeModule{
+
+  .my-book-box{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    padding-top: 94px;
+
+    .b-main{
+      width: 460px;
+      height: 590px;
+      background: white;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-left: -230px;
+      margin-top: -295px;
+      background: url('../../../image/img/congratulation_background.png') no-repeat;
+      background-size: 100%;
+    }
+    .congBannerYield{
+      color: #ff4e00;
+      line-height: 286px;
+      width: 100%;
+      text-align: center;
+      font-size: 55px;
+      margin-bottom: 36px;
+    }
+    .describle{
+      text-align: center;
+      font-size: 27px;
+      height: 42px;
+    }
+    .bnt-red{
+      width: 342px;
+      height: 80px;
+      line-height: 80px;
+      margin-left: 50px;
+      border-radius: 20px;
+    }
+
+
+
+
+
+
+
+  }
+
+
+  .carouselWrap{
+    padding-top: 94px;
+  }
+
+  .slider-item{
+    width: 750px;
+    height: 332px;
+  }
+
+
+
+  .proclaim{
+    height: 68px;
+    background: white;
+    .proclaimIcon{
+      width: 66px;
+      background: url('../../../image/icon/gg_text.png') no-repeat;
+      background-size: 100%;
+      height: 32px;
+      margin-left: 30px;
+      margin-top: 17px;
+    }
+    .proclaimItem{
+      font-size: 22px;
+      line-height: 68px;
+      padding: 0px 20px 0px 35px;
+      width: 539px;
+      overflow: hidden;
+    }
+    .toProclaimList{
+      width: 32px;
+      height: 33px;
+      background: url('../../../image/icon/gonggao.png') no-repeat;
+      background-size: 100%;
+      margin-top: 16px;
+    }
+  }
+
+
+
+  .financeList{
+    background: #cdcdcd;
+    border-top: 1px solid white;
+    padding-bottom: 20px;
+    .financeItem{
+      padding: 20px;
+      margin-top: 20px;
+      background: white;
+      margin-left: 15px;
+      margin-right: 15px;
+      border-radius: 16px;
+      position: relative;
+      .financeImg{
+        width: 680px;
+        height: 230px;
+      }
+      .financeTitle{
+        height: 72px;
+        line-height: 72px;
+        font-size: 26px;
+        color: #333333;
+        margin-left: 16px;
+        overflow: hidden;
+      }
+
+
+      .item_title{
+        font-size: 26px;
+        color: #333333;
+        margin-top: 27px;
+      }
+      
+      .btn-red{
+        margin-top: 20px;
+      }
+      .year-shouyi{
+        width: 80px;
+        height: 65px;
+        display: inline-block;
+        position: absolute;
+        top: -6px;
+        left: 168px;
+
+      }
+
+      .item-progress{
+        height: 4px;
+        background: #dddddd;
+        margin-top: 26px;
+      }
+      .item-progress-inner{
+        height: 4px;
+        background: #f54a4b;
+      }
+
+      .item-ketou{
+        height: 34px;
+        line-height: 50px;
+        color: #666666;
+        font-size: 20px;
+      }
+
+      .proportion{
+        font-size: 20px;
+        height: 34px;
+        line-height: 50px;
+        color: #666666;
+      }
+    }
+  }
+
+  #hei580{
+    height: 580px;
+  }
+  .goTestBtn{
+    width: 300px;
+    height: 80px;
+    background: #fcc527;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 41px;
+    margin-top: 80px;
+    margin-left: 80px;
+  }
+
+
+
+
+}
+
+
+.choujiang{
+  position: fixed;
+  width: 200px;
+  height: 200px;
+
+  z-index: 1000000;
+  bottom: 100px;
+
+  font-size: 34px;
+  right: 10px;
+}
+
+/*公用 start*/
+
+.item_desc{
+  margin-top: 25px;
+  position: relative;
+
+  .item_desc_item1{
+    width: 155px;
+    text-align: center;
+  }
+  .item_desc_item2{
+    width: 193px;
+    text-align: center;
+  }
+
+  .item_desc_item3{
+
+    text-align: center;
+    border-left: 2px solid #cccccc;
+  }
+
+  .item_desc_item_value{
+    height: 66px;
+  }
+  .item_desc_item_name{
+    color: #999999;
+    font-size: 20px;
+  }
+
+  .percentNum{
+    font-size: 50px;
+    color: #f54a4b;
+  }
+  .percentHao{
+    color: #999999;
+  }
+
+}
+
+.yqjxLable{
+
+  position: absolute;
+  width: 128px;
+  height: 51px;
+  top: -48px;
+  right: -102px;
+}
+/*公用  start*/
+.downLoadMod{
+  overflow: hidden;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0,0,0,0.74);
+  z-index: 9999;
+
+  .jjkq{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 24px;
+    left: 25px;
+  }
+  .qianjia_logo{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 17px;
+    left: 98px;
+    border-radius: 10px;
+  }
+  .k_download_text {
+    overflow: hidden;
+    color: #fff;
+    /* margin-top: 0.6rem; */
+    font-size: 18px;
+    /* float: left; */
+    position: absolute;
+    left: 197px;
+    top: 29px;
+  }
+  .aa{
+    font-size: 25px;
+    margin-bottom: 9px;
+  }
+  .k_download_btn{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    border: 4px solid #fff;
+    border-radius: 2px;
+    /* float: right; */
+    /* margin: 0.9rem 0.4rem; */
+    position: absolute;
+    /*top: 14px;
+    left: 534px;
+    padding: 0px 40px;*/
+
+
+    top: 29px;
+    left: 561px;
+    padding: 0 20px;
+  }
+}
+

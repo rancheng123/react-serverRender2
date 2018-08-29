@@ -1,0 +1,737 @@
+@import "./commonVar.scss";
+
+/*  公用模块样式  */
+
+
+.inputItem{
+  border-bottom: 2.5px solid #c9c9c9;
+  height: 104px;
+  line-height: 104px;
+  margin: 0px 26px;
+  .label{
+    font-size: 30px;
+    color:#333333 ;
+  }
+
+
+  .inputText{
+    border: 1px solid transparent;
+    border-radius: 3px;
+    outline: none;
+    background: transparent;
+    padding-left: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 60px;
+  }
+
+
+
+  ::-webkit-input-placeholder { /* WebKit browsers */
+    color: #c9c9c9;
+    font-size: 26px;
+  }
+  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #c9c9c9;
+  }
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #c9c9c9;
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #c9c9c9;
+  }
+}
+.inputItem2{
+  height: 70px;
+  line-height: 70px;
+}
+
+
+
+
+
+//公用横排三个选项
+.g-three-item{
+  width:100%;
+  height:80px;
+  background-color: #fff;
+  display: flex;
+  position: fixed;
+  left:0px;
+  top:88px;
+  z-index: 2;
+  li{
+    flex: 1;
+    line-height:80px;
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    .active{
+      color: $commonColorRed;
+    }
+  }
+  li:after{
+    content: '';
+    width:2.5px;
+    height:26px;
+    background-color: $borderColor;
+    position: absolute;
+    right:0px;
+    top:50%;
+    margin-top: -13px;
+  }
+  li:last-child:after{
+    visibility: hidden;
+  }
+  .active{
+      color: $commonColorRed;
+  }
+}
+
+//列表标题
+.g-product-hastitle{
+    margin-bottom: 20px;
+    .g-product-title{
+        color: $commonColorRed;
+        font-size: 30px;
+        line-height: 38px;
+        padding: 21px 25px 13px 25px;
+        background-color: #fff;
+        border-top: 2.5px solid $borderColor;
+    }
+}
+
+//我的赠品中的列表
+.g-product-list{
+    li,.list-item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 183px;
+        // padding: 3px 0px 0px 0px;
+
+        border-top: 2.5px solid $borderColor;
+        border-bottom: 2.5px solid $borderColor;
+        background-color: #fff;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+    .g-left{
+        // display: flex;
+        // align-items: center;
+        // justify-content: space-between;
+
+    }
+    .g-img{
+        float: left;
+        padding: 0px 25px;
+        img{
+            display: block;
+            width: 140px;
+            height: 138px;
+        }
+    }
+    .g-text{
+        padding-left: 190px;
+        padding-right: 25px;
+        h3{
+            font-size: 30px;
+            height: 72px;
+            line-height: 36px;
+            padding-top: 6px;
+            overflow: hidden;
+        }
+        p{
+            font-size: 24px;
+            color: #666;
+            height: 60px;
+            line-height: 60px;
+            overflow: hidden;
+        }
+    }
+    .g-link{
+        // float: right;
+        padding:20px 35px 20px 0px;
+        // margin-right: 40px;
+        //margin: 0px 19px;
+    }
+    li.ljdh .g-btn,
+    .list-item.ljdh .g-btn{
+        display: block;
+        width: 138px;
+        height: 44px;
+        line-height: 44px;
+        color: $commonColorRed;
+        font-size: 26px;
+        text-align: center;
+        border: 2.5px solid $commonColorRed;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    li.ysx .g-btn,
+    .list-item.ysx .g-btn{
+        display: block;
+        width: 138px;
+        height: 44px;
+        line-height: 44px;
+        color: #b2b2b2;
+        font-size: 26px;
+        text-align: center;
+        border: 2.5px solid #b2b2b2;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    li.yfh .g-btn,
+    .list-item.yfh .g-btn{
+        display: block;
+        width: 138px;
+        height: 44px;
+        line-height: 44px;
+        color: $commonColorRed;
+        font-size: 30px;
+        text-align: right;
+        padding-right: 30px;
+        margin-bottom: 8px;
+        position: relative;
+        box-sizing: border-box;
+    }
+    li.yfh .g-btn:after,
+    .list-item.yfh .g-btn:after{
+        content: '';
+        display: block;
+        width: 16px;
+        height: 16px;
+        border-top:4px solid $commonColorRed;
+        border-right:4px solid $commonColorRed;
+        position: absolute;
+        right: 8px;
+        top: 50%;
+        transform: translateY(-50%) rotate(50deg);
+    }
+    li.daifahuo .g-btn,
+    .list-item.daifahuo .g-btn{
+        display: block;
+        width: 138px;
+        height: 44px;
+        line-height: 44px;
+        color: #ff7404;
+        font-size: 30px;
+        text-align: right;
+        padding-right: 30px;
+        margin-bottom: 8px;
+        position: relative;
+        box-sizing: border-box;
+    }
+    li.daifahuo .g-btn:after,
+    .list-item.daifahuo .g-btn:after{
+        content: '';
+        display: block;
+        width: 16px;
+        height: 16px;
+        border-top:4px solid #ff7404;
+        border-right:4px solid #ff7404;
+        position: absolute;
+        right: 8px;
+        top: 50%;
+        transform: translateY(-50%) rotate(50deg);
+    }
+}
+
+//公用 底部确认按钮
+.g-botton-btn{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 104px;
+    font-size: 36px;
+    border-top: 2.5px solid $borderColor;
+    border-bottom: 2.5px solid $borderColor;
+    background-color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.g-botton-btn.g-sure{
+
+    color: $commonColorRed;
+}
+.g-botton-btn.g-save{
+
+    color: #fb343e;
+}
+
+//公用列表 例如： 投资记录 和 还款计划
+.g-list-box{
+    .g-list{
+        text-align: center;
+    }
+    li:first-child{
+        height: 88px;
+        border-bottom: 2.5px solid $borderColor;
+        span{
+            line-height: 88px;
+            border-bottom: none;
+            font-size: 30px;
+            color: #666666;
+        }
+    }
+    li{
+        display: flex;
+        height: 98px;
+        padding: 0px 20px;
+        span{
+            flex:1;
+            display: block;
+            line-height: 98px;
+            font-size: 28px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            border-bottom: 2px solid $borderColor;
+        }
+    }
+}
+
+//账单详情
+.g-bill-detail{
+    padding: 6px 30px 0px 30px;
+    .g-d-list{
+        border-bottom: 2.5px solid $borderColor;
+        padding:20px 0px;
+        li{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            font-size: 30px;
+            min-height: 54px;
+
+            b{
+                flex-grow: 1;
+                font-weight: normal;
+                padding-right: 20px;
+            }
+            span{
+                display: block;
+                flex: 3;
+                color: #666666;
+                text-align: right;
+                line-height: 40px;
+                padding: 7px 0px;
+            }
+
+        }
+    }
+    .g-lookBill-list{
+        li{
+            justify-content: flex-end;
+        }
+        .g-btn{
+            height: 48px;
+            line-height: 48px;
+            border: 2.5px solid $borderColor;
+            border-radius: 10px;
+            font-size: 22px;
+            padding: 0px 12px;
+        }
+    }
+}
+
+//赠品 标题
+.g-present-title{
+    padding: 25px 20px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 22px;
+    text-align: center;
+
+    .g-p-line{
+        display: inline-block;
+        width: 76px;
+        height: 2px;
+        background-color: #666666;
+        vertical-align: middle;
+        margin: 0 30px;
+    }
+}
+//赠品
+.g-present-box{
+    padding: 12px 20px;
+    .g-p-con{
+        background-color: #fff;
+        position: relative;
+    }
+    //赠品 -> 产品
+    .g-product{
+        height: 124px;
+        padding: 22px 0px;
+        overflow: hidden;
+        .g-img{
+            float: left;
+            width: 194px;
+            height: 124px;
+            overflow: hidden;
+            img{
+                display: block;
+                width: 124px;
+                height: 124px;
+                margin-left: 31px;
+            }
+        }
+        .g-line{
+            float: left;
+            width: 2px;
+            height: 90px;
+            background-color: #dddddd;
+            margin-top: 17px;
+        }
+        .g-text{
+            float: left;
+            width: 390px;
+            height: 124px;
+            overflow: hidden;
+            position: relative;
+            margin-left: 40px;
+            p{
+                font-size: 26px;
+                line-height: 36px;
+
+                position: absolute;
+                left: 0px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+    //赠品 -> 卷
+    .g-discount{
+        height: 144px;
+        .g-img{
+            float: left;
+            width: 184px;
+            height: 114px;
+            padding: 15px 0px;
+            overflow: hidden;
+            img{
+                display: block;
+                width: 133px;
+                height: 114px;
+                margin-left: 31px;
+            }
+        }
+        .g-cen{
+            float: left;
+            width: 22px;
+            height: 100%;
+            position: relative;
+            margin-right: 22px;
+            .g-half{
+                width: 22px;
+                height: 11px;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                background-image: url(../../image/icon/half_circle.png);
+                position: absolute;
+                left: 0px;
+
+            }
+            .g-up{
+                top: 0px;
+            }
+            .g-down{
+                bottom: 0px;
+                transform: rotate(180deg);
+            }
+            .g-line{
+                display: block;
+                width: 3px;
+                height: 84px;
+                background-image: url(../../image/img/line.png);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                margin: 30px auto;
+            }
+        }
+        .g-text{
+            float: left;
+            width: 390px;
+            height: 114px;
+            position: relative;
+            padding: 15px 0px;
+            .g-money{
+                font-size: 50px;
+                color: $commonColorRed;
+                font-weight: bold;
+                line-height: 62px;
+            }
+            .g-per{
+                font-size: 26px;
+                font-weight: normal;
+            }
+            .g-explain{
+                font-size: 20px;
+                color: #666666;
+                height: 30px;
+                line-height: 30px;
+                padding: 8px 0px 14px 0px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+        .g-juan{
+            width: 59px;
+            height: 84px;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            text-align: center;
+            position: absolute;
+            right: 10px;
+            top: -4px;
+            font-size: 20px;
+            color: #fff;
+            span{
+                width: 22px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+        .g-xianjing{
+            background-image: url(../../image/icon/juan1.png);
+        }
+        .g-fanxian{
+            background-image: url(../../image/icon/juan2.png);
+        }
+    }
+    //赠品 -> 抵现卷
+    .g-mortgage{
+        height: 168px;
+        overflow: hidden;
+        .g-yuan{
+            float: left;
+            width: 174px;
+            line-height: 86px;
+            padding:41px 10px;
+            text-align: center;
+            color: $commonColorRed;
+            font-size: 60px;
+            font-weight: bold;
+            overflow: hidden;
+            span{
+                font-size: 30px;
+                font-weight: normal;
+            }
+        }
+        .g-line{
+            float: left;
+            width:2px;
+            height: 90px;
+            background-color: $borderColor;
+            margin-top: 39px;
+        }
+        .g-text{
+            float: left;
+            font-size: 28px;
+            width: 288px;
+            overflow: hidden;
+            padding: 39px 0px 0px 40px;
+
+            h3{
+                line-height: 50px;
+                height: 50px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .g-dixianjuan{
+                color: #ff7404;
+            }
+            p{
+                color: #666666;
+                font-size: 20px;
+                height: 42px;
+                line-height: 42px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+        .g-look{
+            float: right;
+            position: absolute;
+            right: 34px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 144px;
+            height: 48px;
+            line-height: 48px;
+            text-align: center;
+            font-size: 22px;
+            color: #f23939;
+            border: 2.5px solid #f23939;
+            border-radius: 50px;
+            overflow: hidden;
+        }
+    }
+}
+//赠品底部提示
+.g-present-tip{
+    font-size: 20px;
+    line-height: 32px;
+    padding: 0px 28px 32px 28px;
+    text-align: right;
+}
+
+//兑换
+.g-exchangeDetail{
+    background-color: #fff;
+    padding: 0 0px 0 40px;
+    margin-bottom: 12px;
+    .g-ed-box{
+        display: flex;
+        padding: 28px 0px 21px 0px;
+        border-bottom: 2.5px solid $borderColor;
+    }
+    .g-ed-box:last-child{
+        border-bottom: none;
+    }
+    .d-icon{
+        flex: 1;
+        width: 107px;
+        padding: 26px 0px 20px 0px;
+        box-sizing: border-box;
+    }
+    .d-info{
+        flex: 9;
+        padding-right: 30px;
+    }
+    .i-top{
+        // display: flex;
+        // align-items: center;
+        // justify-content: space-between;
+        font-size: 30px;
+        height: 40px;
+        line-height: 40px;
+        .t-tel{
+            font-weight: normal;
+            padding-right: 12px;
+            padding-left: 20px;
+        }
+        .t-info{
+            float: right;
+            color: #ff4e00;
+            font-weight: normal;
+            padding-right: 12px;
+            padding-left: 20px;
+        }
+    }
+    .i-addr{
+        display: flex;
+        justify-content: space-between;
+        font-size: 28px;
+        padding-top: 24px;
+        .i-icon{
+            margin-top: -5px;
+        }
+    }
+}
+
+
+//弹窗样式
+.my-book-box{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1999;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    padding-top: 94px;
+
+    .b-main{
+        width: 460px;
+        height: 590px;
+        background: white;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-left: -230px;
+        margin-top: -295px;
+        background-size: 100%;
+        border-radius: 16px;
+    }
+    .msg{
+        text-align: center;
+        color: #f3454d;
+        font-size: 40px;
+        margin-top: 122px;
+    }
+    .tip{
+        color: #999999;
+        text-align: center;
+        font-size: 28px;
+        margin-top: 51px;
+    }
+    .czcg{
+        width: 170px;
+        height: 170px;
+        position: absolute;
+        top: -84px;
+        left: 216px;
+    }
+}
+
+// 本金可消费没有数据时候的提示
+.g-noData{
+    
+    text-align: center;
+    padding: 140px 20px;
+    i{
+        width: 173px;
+        height: 180px;
+        background-image: url(../../image/icon/consume_icon.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: block;
+        margin: 0px auto;
+    }
+    
+    h2{
+        font-size: 30px;
+        color: #666666;
+        line-height: 40px;
+        margin-top: 35px;
+    }
+    p{
+        font-size: 24px;
+        color: #999999;
+        line-height: 34px;
+        padding: 10px 0px;
+    }
+
+}
+
+// 通用没有数据时的提示
+.g-common-noData{
+    i{
+        display: block;
+        width: 216px;
+        height: 199px;
+        background-image: url(../../image/icon/noData.png);
+        background-repeat:  no-repeat;
+        background-size: 100% 100%;
+        margin: 154px auto auto auto;
+    }
+    p{
+        font-size: 24px;
+        color: #999999;
+        line-height: 72px;  
+        text-align: center;
+
+    }
+}

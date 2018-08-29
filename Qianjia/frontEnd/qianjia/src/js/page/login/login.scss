@@ -1,0 +1,57 @@
+.login{
+  .imgWarp{
+    position: relative;
+    .bg1{
+      width: 750px;
+      height: 360px;
+    }
+    .bg2{
+      width: 186px;
+      height: 186px;
+      border-radius: 50%;
+    }
+    .pos1{
+      position: absolute;
+      left: 286px;
+      top: 70px;
+    }
+    .bg3{
+      width: 284px;
+      height: 48px;
+      position: absolute;
+      left: 236px;
+      top: 276px;
+    }
+  }
+
+
+  .validCode{
+    width: 155px;
+    height: 56px;
+    display: inline-block;
+    margin-top: 17px;
+  }
+
+  .pR30{
+    padding-right: 30px;
+  }
+
+  .btn-getMsgCode{
+    color: #fb343e;
+    width: 248px;
+    text-align: center;
+  }
+  .vertical-line{
+    margin: 0px 38px;
+  }
+
+
+  .hiddenBlock{
+    height: 30px;
+  }
+
+}
+
+
+
+
